@@ -1,12 +1,53 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
-{
+*{
     margin: 0;
     padding: 0;
     border: 0;
+    list-style: none;
 }
-
 
 body 
 {
 	font-family: sans-serif;
+    background: url(../images/bg.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+header, nav, section, footer{
+    position: relative;
+    margin: auto;
+    max-width: 90%;
+    min-height: 100%;
+    background-color: #00000091;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size:x-large;
+    font-style: normal;
+    color:aliceblue;
+}
+
+nav{
+    background-color: #9cad9961 !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+
+
+nav ul{
+    color: aliceblue;
+}
+
+section{
+    background-color: #f0f8ffe8 !important;
+    min-height: 350px;
 }
